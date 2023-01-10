@@ -1,14 +1,20 @@
 @import "common.css";
 
 .container {
-
     max-width: 960px;
     margin: 0 auto;
-    text-align: center;
-
     display: flex;
     /*flex-wrap: wrap;*/
-    /*justify-content: center;*/
+    justify-content: center;
+    text-align: center;
+    font-size: 0;
+
+    /*max-width: 960px;*/
+    /*margin: 0 auto;*/
+    /*text-align: center;*/
+    /*display: flex;*/
+    /*flex-wrap: nowrap;*/
+    /*!*justify-content: center;*!*/
 }
 
 h1 {
@@ -44,27 +50,29 @@ h5 {
     font-size: 14px;
     line-height: 20px;
     text-align: center;
-    
-
     color: #333333;
+    margin-top: 6px;
 }
+
+
 
 .card {
     text-align: center;
-    width: 240px;
+    max-width: 240px;
     height: 100%;
     display: inline-block;
     margin-left: 0;
-    font-size: 0;
+
+    /*font-size: 0;*/
 
 }
 
 .card img {
     width: 220px;
-    height: 220px;
+    /*height: 220px;*/
 
-    margin: 0 10px;
-    object-fit: cover;
+    /*margin: 0 10px;*/
+    /*object-fit: cover;*/
 }
 
 
@@ -91,16 +99,43 @@ main {
     background: rgba(0, 0, 0, 0.09);
 }
 
-/*.container {*/
-/*    max-width: 900px;*/
-/*    margin: 0 auto;*/
-/*    text-align: center;*/
-/*}*/
-/*.card {*/
-/*    background: #E0E0E0;*/
-/*    width: 200px;*/
-/*    text-align: center;*/
-/*    margin: 15px;*/
-/*    height: 100%;*/
-/*    display: inline-block;*/
-/*}*/
+.icon-card{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    margin-left: 0;
+    font-size: 0;
+    max-width:29px;
+
+    /*justify-content: center;*/
+}
+
+.icon-twitt{
+
+    font-size: 0;
+    max-width:29px;
+
+    height: 14px;
+    background: #F5F5F5;
+    /*margin-top: 29px;*/
+    /*margin-right: 3px;*/
+    padding: 1px 7px 1px 8px;
+    margin: 29px 3px 0 3px;
+
+}
+
+.icon-img{
+    display:inline-block;
+    align-items: center;
+    font-size: 0;
+    max-width:29px;
+
+    height: 14px;
+    background: #F5F5F5;
+    margin-top: 29px;
+    /*padding: 1px 7px;*/
+}
+
+
+
+
